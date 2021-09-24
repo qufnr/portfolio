@@ -59,7 +59,7 @@ header .header-item {
     height: 600px;
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
-    background-image: linear-gradient(180deg, rgba(75, 75, 75, 0.3) 0,rgba(70, 70, 70, 0.3)), url('/images/background001.jpg');
+    background-image: linear-gradient(180deg, rgba(75, 75, 75, 0.3) 0,rgba(70, 70, 70, 0.3)), url('./images/background001.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
