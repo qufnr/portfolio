@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/d220fc660a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="/swiper-style.css"/>
+    <script src="/script.js"></script>
+    <title>Jinwoo`s Portfolio</title>
+</head>
+<body>
+    <div class="root">
+
+        <!-- 
+            헤더
+         -->
+        <header>
+            <div class="header-main">
+                <div class="header-title">
+                    Jinwoo`s Portfolio
+                </div>
+                <ul class="header-item">
+                    <li><a href="#about">소개</a></li>
+                    <li><a href="#skill">기술</a></li>
+                    <li><a href="#archive">아카이브</a></li>
+                    <li><a href="#project">프로젝트</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- 
+            TOP 배경 및 문구
+         -->
+        <div class="top" id="top">
+            <div class="top-text">
+                <div class="top-text-header">
+                    하진우<br/>
+                    포트폴리오
+                </div>
+                <div class="top-text-body">
+                    새로운 도전의 길을 포기하지 않고 끝까지 앞서 나아가는 개발자
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            소개
+         -->
+        <div class="about" id="about">
+            <div class="title-text">소개</div>
+            <div class="about-contents">
+                <div class="about-item">
+                    <div class="about-item-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            이름
+                        </div>
+                        <div class="about-content-text">
+                            하진우
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            생년월일
+                        </div>
+                        <div class="about-content-text">
+                            1999.05.25
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            연락처
+                        </div>
+                        <div class="about-content-text">
+                            010-6554-8862
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-icon" style="margin-right:24px">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            주소지
+                        </div>
+                        <div class="about-content-text">
+                            부산광역시 해운대구
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-icon" style="margin-right:30px">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            이메일
+                        </div>
+                        <div class="about-content-text">
+                            qufnr@kakao.com
+                        </div>
+                    </div>
+                </div>
+                <div class="about-item">
+                    <div class="about-item-icon">
+                        <i class="fas fa-pencil-alt"></i>
+                    </div>
+                    <div class="about-item-contents">
+                        <div class="about-content-title">
+                            분야
+                        </div>
+                        <div class="about-content-text">
+                            웹 개발, 게임 개발
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            기술
+         -->
+        <div class="skill" id="skill">
+            <div class="skill-contents">
+                <div class="title-text">기술</div>
+
+                <div class="skill-list">
+                    <div class="skill-item shadow">
+                        <div class="title-sm-text">Front-end</div>
+                        <div><img src="/images/skills/html5.png"/></div>
+                        <div><img src="/images/skills/css3.png"/></div>
+                        <div><img src="/images/skills/js.png"/></div>
+                        <div><img src="/images/skills/jquery.png"/></div>
+                        <div><img src="/images/skills/vuejs.png"/></div>
+                    </div>
+                    <div class="skill-item shadow">
+                        <div class="title-sm-text">Back-end</div>
+                        <div><img src="/images/skills/java.png"/></div>
+                        <div><img src="/images/skills/mysql.png"/></div>
+                        <div><img src="/images/skills/php.png"/></div>
+                        <div><img src="/images/skills/spring.png"/></div>
+                    </div>
+                    <div class="skill-item shadow">
+                        <div class="title-sm-text">Deployment</div>
+                        <div><img src="/images/skills/aws.png"/></div>
+                    </div>
+                    <div class="skill-item shadow">
+                        <div class="title-sm-text">Version Control</div>
+                        <div><img src="/images/skills/git.png"/></div>
+                        <div><img src="/images/skills/github.png"/></div>
+                    </div>
+                    <div class="skill-item shadow">
+                        <div class="title-sm-text">Communication</div>
+                        <div><img src="/images/skills/notion.png"/></div>
+                    </div>
+                    <div class="skill-item shadow" style="opacity: 0;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            아카이빙
+         -->
+        <div class="archive" id="archive">
+            <div class="archive-contents">
+                <div class="title-text">아카이브</div>
+                <div class="archive-list">
+                    <div class="archive-item shadow">
+                        <div class="archive-item-image"><img src="/images/skills/github.png"/></div>
+                        <div class="archive-item-text">
+                            <div>
+                            <a href="https://github.com/qufnr">github.com/qufnr</a>
+                            </div>
+                            <div>
+                                <b>소스 코드 저장소</b>입니다.
+                            </div>
+                            <div>
+                                <ul>
+                                    <li>과거 프로젝트, 프로그램, 앱의 소스 코드</li>
+                                    <li>코딩 연습을 위해 끄적이던 소스 코드</li>
+                                    <li>수업 시간에 배웠던 코딩 과제 소스 코드</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 
+            프로젝트
+         -->
+        <div class="project" id="project">
+            <div class="project-contents">
+                <div class="title-text">프로젝트</div>
+
+                <div class="project-list">
+                    <div class="project-item shadow">
+                        <div class="project-title">
+                            음식 배달 웹사이트
+                        </div>
+                        <div class="project-subtitle">
+                            2021.07 ~ 2021.08 (개인 프로젝트)
+                        </div>
+                        
+                        <div class="project-detail">
+                            <div class="project-image">
+                                <div class="swiper projectImages">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/images/project_001/1.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/2.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/3.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/4.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/5.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/6.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/7.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/8.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_001/9.png"/></div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                <b>평소 우리가 사용하는 배달 음식 앱을 참고하여 제작한 음식 배달 웹페이지 기본 틀입니다.</b>
+                                최근에는 코로나 사태로 인해서 많은 사람들이 매장 식사보다는 음식을 배달 시켜 먹는 경우가 증가하였습니다.
+                                이로 인해 배달 앱은 어떤 방식으로 되어있는가 생각하고 참고하여 제작하였습니다.
+                                <br/>
+                                <br/>
+
+                                Vue.js를 사용하여 UI를 제작하고, Back-end 기술(Java, Spring, MySQL)을 사용하였습니다.
+                                처음 사용한 <span>Kakao의 주소 API</span>를 사용하여 사용자가 검색한 주소를 웹페이지에 가져와 사용할 수 있는 기능을 제작했습니다.
+                                <br/>
+                                <br/>
+
+                                해당 페이지를 만들면서 Vue.js에 대한 지식도 많이 얻고, API의 중요성을 알 수 있게 해준 프로젝트였습니다.
+                                <hr/>
+
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">주요 기능</div>
+                                    <div class="project-description-item-value">음식 주문, 음식 목록, 음식 상세 정보, 배달지 검색, 장바구니</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">GitHub</div>
+                                    <div class="project-description-item-value"><a href="https://github.com/qufnr/project_delivery_webapp">github.com/qufnr/project_delivery_webapp</a></div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">도메인</div>
+                                    <div class="project-description-item-value">-</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">Front-end</div>
+                                    <div class="project-description-item-value">HTML5, CSS3, Vue.js</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">Back-end</div>
+                                    <div class="project-description-item-value">Spring, MySQL</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-list">
+                    <div class="project-item shadow">
+                        <div class="project-title">
+                            카셰어링 웹사이트
+                        </div>
+                        <div class="project-subtitle">
+                            2021.08 ~ 2021.09 (4인 팀 프로젝트)
+                        </div>
+                        
+                        <div class="project-detail">
+                            <div class="project-image">
+                                <div class="swiper projectImages">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide"><img src="/images/project_002/1.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/2.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/3.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/4.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/5.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/6.png"/></div>
+                                        <div class="swiper-slide"><img src="/images/project_002/7.png"/></div>
+                                    </div>
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                            </div>
+                            <div class="project-description">
+                                <b>급히 어디를 가야하거나, 드라이브를 하고싶은 사람을 생각하여 만든 카셰어링 웹페이지 틀입니다.</b>
+                                처음, 학교에서 팀원들과 협력하여 제작한 웹페이지 입니다. Vue.js와 Spring을 이용하여 만들었습니다.
+                                <br/>
+                                <br/>
+
+                                <span>Kakao의 지도 API</span>를 사용하여 지도를 표시해주고 표시된 지도에 차량 위치를 마킹하고 대여 차량을 확인하는 기능을 구현했습니다.
+                                Kakao의 API 설명이 잘 정리되어있고 깔끔한 UI를 갖고 있어서 Kakao의 API를 사용했습니다.
+                                <br/>
+                                <br/>
+
+                                Vue.js로 Front-end 쪽을 구현했고 <span>Bootstrap Vue를 이용하여 30% 정도 가량의 UI 제작</span>에 도움을 받았습니다.
+                                차량 대여 시간을 계산하는 방식은 <span>Unixtime Stamp</span>를 이용하여 시간 계산을 하였습니다.
+                                <br/>
+
+                                해당 페이지를 만들면서 Vue.js에 대한 지식도 많이 얻고, API의 중요성을 알 수 있게 해준 프로젝트였습니다.
+                                <hr/>
+
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">주요 기능</div>
+                                    <div class="project-description-item-value">차량 위치 확인, 차량 가격 확인, 차량 정보 확인, 위치 검색, 대여하기, 반납하기, 관리자 유저 및 차량 관리</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">GitHub</div>
+                                    <div class="project-description-item-value"><a href="https://github.com/qufnr/team_project_carsharing">github.com/qufnr/team_project_carsharing</a></div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">도메인</div>
+                                    <div class="project-description-item-value">-</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">Front-end</div>
+                                    <div class="project-description-item-value">HTML5, CSS3, Vue.js, Bootstrap Vue</div>
+                                </div>
+                                <div class="project-description-item">
+                                    <div class="project-description-item-label">Back-end</div>
+                                    <div class="project-description-item-value">Java, JavaScript, Spring, MySQL, Axios</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-contents">
+                <div class="footer-text">
+                    © 2021. Jinwoo Ha. All rights reserved.
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="/swiper-script.js">
+    </script>
+</body>
+</html>
