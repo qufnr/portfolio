@@ -35,13 +35,18 @@ header .header-main {
     margin: 0 auto;
     padding: 0 60px;
     max-width: 1000px;
+    
+    color: #f1f1f1;
 
-    color: #e9e9e9;
     text-shadow: 4px 4px 3px rgba(0,0,0,0.7);
 }
 header .header-title {
     font-size: 28px;
     font-weight: 800;
+}
+header .header-title a {
+    text-decoration: none;
+    color: #f1f1f1;
 }
 header .header-item {
     margin: 0;
@@ -56,7 +61,7 @@ header .header-item {
 .top {
     position: relative;
     width: 100%;
-    height: 600px;
+    height: 100vh;
     -webkit-filter: grayscale(70%);
     filter: grayscale(70%);
     background-image: linear-gradient(180deg, rgba(75, 75, 75, 0.3) 0,rgba(70, 70, 70, 0.3)), url('./images/background001.jpg');
@@ -271,7 +276,7 @@ footer {
     margin: 0;
     background-color: #252525;
     color: #ffffff;
-    height: 156px;
+    height: 160px;
 }
 footer .footer-contents {
     padding: 68px;
